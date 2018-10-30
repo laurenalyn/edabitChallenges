@@ -7,3 +7,9 @@ function comp(str1, str2) {
             return false;
     }
 }
+
+// Create a function that takes two numbers as arguments and return their sum.
+function addition(a, b) {
+    return a + b
+}
+
