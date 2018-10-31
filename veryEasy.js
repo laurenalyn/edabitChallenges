@@ -60,3 +60,10 @@ function lessThanOrEqualToZero(num) {
 	}
 }
 
+// Create a function that accepts an array and returns the last item in the array.
+function getLastItem(arr) {
+	let num = arr.pop();
+	return num;
+}
+
+// 
