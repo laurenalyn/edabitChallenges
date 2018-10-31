@@ -99,3 +99,6 @@ function findDigitAmount(num) {
     }
     return count;
 }
+function findDigitAmount(num) {
+	return num.toString().length;
+}
