@@ -87,3 +87,15 @@ function find_index(arr, str) {
 function calculateExponent(num, exp) {
 	return Math.pow(num, exp);
 }
+
+// Create a function that takes a number as an argument and
+// returns the amount of digits it has.
+function findDigitAmount(num) {
+    let count = 0;
+    let stringNum = num.toString();
+    let splitStr = stringNum.split("");
+    for(let i = 0; i < splitStr.length; i++) {
+        count ++  
+    }
+    return count;
+}
