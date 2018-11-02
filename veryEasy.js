@@ -132,3 +132,28 @@ function Go(num) {
 function findSmallestNum(arr) {
 	return Math.min(...arr);
 }
+
+// Create a function that reverses a boolean value and returns the string "boolean expected"
+// if another variable type is given.
+function reverse(bool) {
+    if (bool === false) {
+        return bool = true;
+    } else if (bool === true) {
+        return bool = false;
+    } else {
+        return "boolean expected"
+    }
+}
+// OR 
+function reverse(bool) {
+	if (typeof bool === 'boolean') {
+		return !bool
+	} else {
+		return 'boolean expected'
+	}
+}
+// OR
+function reverse(bool) {
+	if (typeof bool !== 'boolean') return "boolean expected"
+	return !bool
+}
