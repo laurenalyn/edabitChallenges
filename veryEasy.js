@@ -114,3 +114,16 @@ function findLargestNum(arr) {
 function findLargestNum(arr) {
     return Math.max(...arr);
   }
+
+//   Create a function that takes a number (from 1 - 60) and returns a corresponding string of hyphens.
+function Go(num) {
+	let dash = [];
+	for(let i = 0; i < num; i++) {
+    dash.push("-");
+  }
+  return dash.join("");
+}
+// OR
+function Go(num) {
+	return "-".repeat(num);
+}
