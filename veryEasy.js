@@ -157,3 +157,9 @@ function reverse(bool) {
 	if (typeof bool !== 'boolean') return "boolean expected"
 	return !bool
 }
+
+// Create a function that accepts a string (of a persons first 
+// and last name) and returns a string with the first and last name swapped.
+function nameShuffle(str) {
+	return str.split(" ").reverse().join(" ");
+}
