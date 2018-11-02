@@ -102,3 +102,15 @@ function findDigitAmount(num) {
 function findDigitAmount(num) {
 	return num.toString().length;
 }
+
+// Create a function that takes an array of numbers. Return the largest number in the array.
+function findLargestNum(arr) {
+    let max = arr.reduce(function(a, b) {
+      return Math.max(a, b)
+    });
+    return max; 
+}
+// OR
+function findLargestNum(arr) {
+    return Math.max(...arr);
+  }
