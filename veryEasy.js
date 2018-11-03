@@ -168,3 +168,12 @@ function nameShuffle(str) {
 function reverse(str) {
 	return str.split("").reverse().join("");
 }
+
+// Create a function to multiply all values in an array by the amount of values in that array.
+function MultiplyByLength(arr) {
+    let newArr = [];
+    for(let i = 0; i < arr.length; i++) {
+        newArr.push(arr[i] * arr.length);
+    }
+    return newArr;
+  }
